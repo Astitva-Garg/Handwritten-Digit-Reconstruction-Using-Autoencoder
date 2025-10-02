@@ -98,11 +98,11 @@ The convolutional autoencoder typically achieves sharper reconstructions compare
 
 ---
 
-## 📌 Notes
+##  Notes
 - The **linear autoencoder** flattens the images into vectors.  
 - The **convolutional autoencoder** preserves spatial information using Conv2d layers, making it better at capturing digit structure.  
 
 ---
 
-## 📜 License
+## License
 This project is open-source and available under the **MIT License**.
