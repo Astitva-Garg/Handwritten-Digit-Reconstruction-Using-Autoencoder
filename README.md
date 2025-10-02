@@ -9,7 +9,7 @@ Both models learn to encode handwritten digits into a compressed latent space an
 
 ---
 
-## 🔍 What is an Autoencoder?
+## What is an Autoencoder?
 An **Autoencoder** is an unsupervised neural network that learns to reconstruct its input.  
 It consists of:
 - **Encoder** – reduces the input dimensionality (compression).
@@ -19,7 +19,7 @@ The learning objective is to minimize the reconstruction loss (here, **Mean Squa
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 ```
 ├── linear_autoencoder.py        # Autoencoder with fully connected layers
 ├── conv_autoencoder.py          # Autoencoder with convolutional layers
@@ -29,7 +29,7 @@ The learning objective is to minimize the reconstruction loss (here, **Mean Squa
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 Install the dependencies with:
 
 ```bash
@@ -38,7 +38,7 @@ pip install torch torchvision matplotlib
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ### 1. Train the Linear Autoencoder
 ```bash
@@ -70,7 +70,7 @@ During training, the script prints the **epoch loss** and visualizes reconstruct
 
 ---
 
-## 📊 Training Details
+## Training Details
 - **Dataset**: MNIST (28×28 grayscale images)  
 - **Loss Function**: Mean Squared Error (MSE)  
 - **Optimizer**: Adam (lr=1e-3, weight_decay=1e-5)  
@@ -79,7 +79,7 @@ During training, the script prints the **epoch loss** and visualizes reconstruct
 
 ---
 
-## 🎨 Results
+## Results
 After training, the models generate reconstructions of MNIST digits.  
 For every 4 epochs, the code visualizes:
 
