@@ -42,12 +42,12 @@ pip install torch torchvision matplotlib
 
 ### 1. Train the Linear Autoencoder
 ```bash
-python linear_autoencoder.py
+python ae_torch.py
 ```
 
 ### 2. Train the Convolutional Autoencoder
 ```bash
-python conv_autoencoder.py
+python conv_ae_torch.py
 ```
 
 During training, the script prints the **epoch loss** and visualizes reconstructed images after training.  
